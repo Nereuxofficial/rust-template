@@ -1,4 +1,4 @@
-# cargo-generate-ggez
+# rust-template
 My template for all my rust projects. It uses [cargo-generate](https://github.com/cargo-generate/cargo-generate) to create a new project.
 
 # Help
