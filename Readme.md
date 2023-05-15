@@ -8,9 +8,9 @@ First, install `cargo-generate`.
 $ cargo install cargo-generate
 ```
 
-To use this template for a project named `myproject`, run
+To use this template run:
 ```bash
-$ cargo generate --git https://github.com/Nereuxofficial/rust-template --name myproject
+$ cargo generate --git https://github.com/Nereuxofficial/rust-template
 ```
 
 # Credits

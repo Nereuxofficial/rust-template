@@ -1,0 +1,7 @@
+[placeholder.async]
+type = "bool"
+prompt = "Do you want to use async/await?"
+default = false
+
+[templace]
+exclude = "Readme.md"

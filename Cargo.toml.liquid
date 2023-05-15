@@ -1,0 +1,16 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+license = "GPLv3"
+readme = "README.md"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6.2"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
+dotenvy = "0.15.7"
+{% if async %}
+tokio = { version = "1", features = ["full"] }
+{% endif %}
