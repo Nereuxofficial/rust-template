@@ -3,5 +3,5 @@ type = "bool"
 prompt = "Do you want to use async/await?"
 default = false
 
-[templace]
-exclude = "Readme.md"
+[template]
+exclude = ["Readme.md"]
