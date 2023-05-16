@@ -1,5 +1,7 @@
 # Bene's rust-template
-My template for all my rust projects. It uses [cargo-generate](https://github.com/cargo-generate/cargo-generate) to create a new project.
+My minimalistic template for all my rust projects. It includes QOL crates like tracing and color_eyre and if async is enabled, tokio.
+
+It uses [cargo-generate](https://github.com/cargo-generate/cargo-generate) to create a new project.
 
 # Help
 
