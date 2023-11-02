@@ -4,4 +4,9 @@ prompt = "Do you want to use async/await?"
 default = false
 
 [template]
+cargo_generate_version = ">=0.17.4"
 exclude = ["Readme.md"]
+ignore = [".git", ".github/dependabot.yml", ".github/workflows/ci_docker.yml", ".github/workflows/ci.yml", ".github/workflows/issue_handler.yml", "Readme.md"]
+
+[hooks]
+pre = ["pre-script.rhai"]
