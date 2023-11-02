@@ -1,4 +1,4 @@
-let async = variable::get("async");
-if async {
+let asynchronous = variable::get("async");
+if asynchronous {
     variable::set("async", true);
 }
